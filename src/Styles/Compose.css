@@ -1,0 +1,21 @@
+.compose-body{
+    background-color: #AA8B56 ;
+    height: 100vh;
+    padding: 5%;
+}
+
+.fetch{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 4%;
+}
+
+.compose-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.compose-heading{
+    margin: 0;
+}

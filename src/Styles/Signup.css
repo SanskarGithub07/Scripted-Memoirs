@@ -1,0 +1,64 @@
+.register{
+    width: 50vw;
+    position: relative;
+    left: 25%;
+    height: 82vh;
+}
+
+.free-account{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-top: 0;
+    padding: 10px;
+    color: #AA8B56;
+}
+
+.reg-form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.flexbox{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 65%;
+    margin-left: 18%;
+}
+
+.flexbox>label{
+    font-size: 1rem;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+    color: #BF9270;
+}
+
+.flexbox>input{
+    padding: 10px 12px;
+}
+
+.submit-button{
+    padding: 2%;
+}
+
+.submit-button>button{
+    margin-left: 25%;
+    width: 50%;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0.8%;
+    background-color: #AA8B56;
+    color: #F0EBCE;
+}
+
+.submit-button>button:hover{
+    background-color: #4E6C50;
+    cursor: pointer;
+    color: white;
+}
